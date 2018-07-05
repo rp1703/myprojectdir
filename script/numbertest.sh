@@ -10,13 +10,13 @@
 
 
 
-#Number Test
-MARKS=$1
-if [ "$MARKS" -gt "80" ]; then
+
+MARKS=60
+if [ "$MARKS" -gt "70" ]; then
 echo "First division"
 elif [ "$MARKS" -gt "55" ]; then
 echo "Second Division"
-elif [ "$MARKS" -gt "30" ]; then
+elif [ "$MARKS" -gt "45" ]; then
 echo "Third Division"
 else
 echo "fail"
